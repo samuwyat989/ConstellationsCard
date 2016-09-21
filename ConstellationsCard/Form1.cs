@@ -52,7 +52,7 @@ namespace ConstellationsCard
             stars.DrawLine(whitePen, 30, 320, 580, 320);
             stars.FillEllipse(yellowBrush, 500, 460, 10, 10);
 
-            stars.FillEllipse(whiteBrush, 50, 50, 10, 10); 
+            /*stars.FillEllipse(whiteBrush, 50, 50, 10, 10); 
             stars.FillEllipse(whiteBrush, 50, 100, 8, 8);
             stars.FillEllipse(whiteBrush, 50, 150, 16, 16);
             stars.FillEllipse(whiteBrush, 50, 200, 6, 6);
@@ -67,13 +67,13 @@ namespace ConstellationsCard
             stars.FillEllipse(whiteBrush, 100, 300, 6, 6);
             
             stars.FillEllipse(whiteBrush, 150, 50, 10, 10);
-            stars.FillEllipse(whiteBrush, 150, 100, 10, 10);
-            stars.FillEllipse(whiteBrush, 150, 150, 10, 10); 
-            stars.FillEllipse(whiteBrush, 150, 200, 10, 10);
-            stars.FillEllipse(whiteBrush, 150, 250, 10, 10);
-            stars.FillEllipse(whiteBrush, 150, 300, 10, 10);
+            stars.FillEllipse(whiteBrush, 150, 100, 8, 8);
+            stars.FillEllipse(whiteBrush, 150, 150, 16, 16); 
+            stars.FillEllipse(whiteBrush, 150, 200, 6, 6);
+            stars.FillEllipse(whiteBrush, 150, 250, 7, 7);
+            stars.FillEllipse(whiteBrush, 150, 300, 11, 11);
             
-            stars.FillEllipse(whiteBrush, 200, 50, 10, 10);
+            stars.FillEllipse(whiteBrush, 200, 50, 4, 4);
             stars.FillEllipse(whiteBrush, 200, 100, 10, 10);
             stars.FillEllipse(whiteBrush, 200, 150, 10, 10);
             stars.FillEllipse(whiteBrush, 200, 200, 10, 10); 
@@ -127,8 +127,29 @@ namespace ConstellationsCard
             stars.FillEllipse(whiteBrush, 550, 150, 10, 10);
             stars.FillEllipse(whiteBrush, 550, 200, 10, 10);
             stars.FillEllipse(whiteBrush, 550, 250, 10, 10);
-            stars.FillEllipse(whiteBrush, 550, 300, 10, 10);
-            
+            stars.FillEllipse(whiteBrush, 550, 300, 10, 10);*/
+
+            stars.FillEllipse(whiteBrush, 179, 149, 5, 5);
+            stars.FillEllipse(whiteBrush, 62, 228, 5, 5);
+            stars.FillEllipse(whiteBrush, 177, 221, 5, 5);
+
+            stars.FillEllipse(whiteBrush, 349, 159, 5, 5);
+            stars.FillEllipse(whiteBrush, 393, 202, 5, 5);
+            stars.FillEllipse(whiteBrush, 391, 268, 5, 5);
+
+            stars.FillEllipse(whiteBrush, 357, 108, 5, 5);
+            stars.FillEllipse(whiteBrush, 429, 66, 5, 5);
+            stars.FillEllipse(whiteBrush, 453, 95, 5, 5);
+
+            stars.DrawLine(whitePen, 185, 152, 348, 161);
+            stars.DrawLine(whitePen, 178, 152, 68, 230);
+            stars.DrawLine(whitePen, 68, 230, 176, 224);
+
+            stars.DrawLine(whitePen, 183, 224, 389, 271);
+            stars.DrawLine(whitePen, 393, 267, 396, 208);
+            stars.DrawLine(whitePen, 396, 201, 355, 162);
+
+            stars.DrawLine(whitePen, 351, 158, 359, 114);
         }
 
         private void stars_Load(object sender, EventArgs e)
