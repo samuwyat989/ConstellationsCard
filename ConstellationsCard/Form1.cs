@@ -59,30 +59,30 @@ namespace ConstellationsCard
             stars.FillEllipse(whiteBrush, 75, 259, 7, 7);
             stars.FillEllipse(whiteBrush, 76, 296, 11, 11);
             
-            stars.FillEllipse(whiteBrush, 110, 50, 4, 4);
-            stars.FillEllipse(whiteBrush, 115, 100, 8, 8); 
-            stars.FillEllipse(whiteBrush, 95, 150, 3, 3);
-            stars.FillEllipse(whiteBrush, 127, 200, 4, 4);
-            stars.FillEllipse(whiteBrush, 101, 250, 9, 9);
-            stars.FillEllipse(whiteBrush, 98, 300, 6, 6);
+            stars.FillEllipse(whiteBrush, 110, 54, 4, 4);
+            stars.FillEllipse(whiteBrush, 115, 123, 8, 8); 
+            stars.FillEllipse(whiteBrush, 95, 142, 3, 3);
+            stars.FillEllipse(whiteBrush, 127, 209, 4, 4);
+            stars.FillEllipse(whiteBrush, 101, 267, 9, 9);
+            stars.FillEllipse(whiteBrush, 98, 285, 6, 6);
             
-            stars.FillEllipse(whiteBrush, 175, 50, 9, 9);
-            stars.FillEllipse(whiteBrush, 168, 100, 6, 6);
-            stars.FillEllipse(whiteBrush, 143, 150, 4, 4); 
-            stars.FillEllipse(whiteBrush, 132, 200, 8, 8);
-            stars.FillEllipse(whiteBrush, 180, 250, 3, 3);
-            stars.FillEllipse(whiteBrush, 156, 300, 4, 4);
+            stars.FillEllipse(whiteBrush, 175, 59, 9, 9);
+            stars.FillEllipse(whiteBrush, 168, 78, 6, 6);
+            stars.FillEllipse(whiteBrush, 143, 134, 4, 4); 
+            stars.FillEllipse(whiteBrush, 132, 211, 8, 8);
+            stars.FillEllipse(whiteBrush, 180, 241, 3, 3);
+            stars.FillEllipse(whiteBrush, 156, 333, 4, 4);
             
-            stars.FillEllipse(whiteBrush, 190, 50, 9, 9);
-            stars.FillEllipse(whiteBrush, 207, 100, 8, 8);
-            stars.FillEllipse(whiteBrush, 214, 150, 3, 3);
-            stars.FillEllipse(whiteBrush, 196, 200, 6, 6); 
-            stars.FillEllipse(whiteBrush, 223, 250, 4, 4);
-            stars.FillEllipse(whiteBrush, 228, 300, 4, 4);
+            stars.FillEllipse(whiteBrush, 190, 72, 9, 9);
+            stars.FillEllipse(whiteBrush, 207, 94, 8, 8);
+            stars.FillEllipse(whiteBrush, 214, 157, 3, 3);
+            stars.FillEllipse(whiteBrush, 196, 224, 6, 6); 
+            stars.FillEllipse(whiteBrush, 223, 240, 4, 4);
+            stars.FillEllipse(whiteBrush, 228, 291, 4, 4);
             
-            stars.FillEllipse(whiteBrush, 237, 50, 3, 3);
-            stars.FillEllipse(whiteBrush, 256, 100, 8, 8);
-            stars.FillEllipse(whiteBrush, 274, 150, 16, 16);
+            stars.FillEllipse(whiteBrush, 237, 69, 3, 3);
+            stars.FillEllipse(whiteBrush, 256, 84, 8, 8);
+            stars.FillEllipse(whiteBrush, 274, 139, 16, 16);
             stars.FillEllipse(whiteBrush, 283, 200, 4, 4);
             stars.FillEllipse(whiteBrush, 241, 250, 9, 9); 
             stars.FillEllipse(whiteBrush, 242, 300, 4, 4);
@@ -152,7 +152,7 @@ namespace ConstellationsCard
             stars.DrawLine(whitePen, 351, 158, 359, 114);
             stars.DrawLine(whitePen, 360, 107, 428, 68);
 
-            stars.DrawLine(whitePen, 435, 68, 452, 97);
+            stars.DrawLine(whitePen, 435, 68, 455, 94);
 
         }
 
