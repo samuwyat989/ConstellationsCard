@@ -52,104 +52,83 @@ namespace ConstellationsCard
             stars.DrawLine(whitePen, 30, 320, 580, 320);
             stars.FillEllipse(yellowBrush, 500, 460, 10, 10);
 
-            /*stars.FillEllipse(whiteBrush, 50, 50, 10, 10); 
-            stars.FillEllipse(whiteBrush, 50, 100, 8, 8);
-            stars.FillEllipse(whiteBrush, 50, 150, 16, 16);
-            stars.FillEllipse(whiteBrush, 50, 200, 6, 6);
-            stars.FillEllipse(whiteBrush, 50, 250, 7, 7);
-            stars.FillEllipse(whiteBrush, 50, 300, 11, 11);
+            stars.FillEllipse(whiteBrush, 65, 54, 10, 10); 
+            stars.FillEllipse(whiteBrush, 43, 103, 8, 8);
+            stars.FillEllipse(whiteBrush, 62, 143, 16, 16);
+            stars.FillEllipse(whiteBrush, 79, 207, 6, 6);
+            stars.FillEllipse(whiteBrush, 75, 259, 7, 7);
+            stars.FillEllipse(whiteBrush, 76, 296, 11, 11);
             
-            stars.FillEllipse(whiteBrush, 100, 50, 4, 4);
-            stars.FillEllipse(whiteBrush, 100, 100, 8, 8); 
-            stars.FillEllipse(whiteBrush, 100, 150, 3, 3);
-            stars.FillEllipse(whiteBrush, 100, 200, 4, 4);
-            stars.FillEllipse(whiteBrush, 100, 250, 9, 9);
-            stars.FillEllipse(whiteBrush, 100, 300, 6, 6);
+            stars.FillEllipse(whiteBrush, 110, 50, 4, 4);
+            stars.FillEllipse(whiteBrush, 115, 100, 8, 8); 
+            stars.FillEllipse(whiteBrush, 95, 150, 3, 3);
+            stars.FillEllipse(whiteBrush, 127, 200, 4, 4);
+            stars.FillEllipse(whiteBrush, 101, 250, 9, 9);
+            stars.FillEllipse(whiteBrush, 98, 300, 6, 6);
             
-            stars.FillEllipse(whiteBrush, 150, 50, 10, 10);
-            stars.FillEllipse(whiteBrush, 150, 100, 8, 8);
-            stars.FillEllipse(whiteBrush, 150, 150, 16, 16); 
-            stars.FillEllipse(whiteBrush, 150, 200, 6, 6);
-            stars.FillEllipse(whiteBrush, 150, 250, 7, 7);
-            stars.FillEllipse(whiteBrush, 150, 300, 11, 11);
+            stars.FillEllipse(whiteBrush, 175, 50, 9, 9);
+            stars.FillEllipse(whiteBrush, 168, 100, 6, 6);
+            stars.FillEllipse(whiteBrush, 143, 150, 4, 4); 
+            stars.FillEllipse(whiteBrush, 132, 200, 8, 8);
+            stars.FillEllipse(whiteBrush, 180, 250, 3, 3);
+            stars.FillEllipse(whiteBrush, 156, 300, 4, 4);
             
-            stars.FillEllipse(whiteBrush, 200, 50, 4, 4);
-            stars.FillEllipse(whiteBrush, 200, 100, 10, 10);
-            stars.FillEllipse(whiteBrush, 200, 150, 10, 10);
-            stars.FillEllipse(whiteBrush, 200, 200, 10, 10); 
-            stars.FillEllipse(whiteBrush, 200, 250, 10, 10);
-            stars.FillEllipse(whiteBrush, 200, 300, 10, 10);
+            stars.FillEllipse(whiteBrush, 190, 50, 9, 9);
+            stars.FillEllipse(whiteBrush, 207, 100, 8, 8);
+            stars.FillEllipse(whiteBrush, 214, 150, 3, 3);
+            stars.FillEllipse(whiteBrush, 196, 200, 6, 6); 
+            stars.FillEllipse(whiteBrush, 223, 250, 4, 4);
+            stars.FillEllipse(whiteBrush, 228, 300, 4, 4);
             
-            stars.FillEllipse(whiteBrush, 250, 50, 10, 10);
-            stars.FillEllipse(whiteBrush, 250, 100, 10, 10);
-            stars.FillEllipse(whiteBrush, 250, 150, 10, 10);
-            stars.FillEllipse(whiteBrush, 250, 200, 10, 10);
-            stars.FillEllipse(whiteBrush, 250, 250, 10, 10); 
-            stars.FillEllipse(whiteBrush, 250, 300, 10, 10);
+            stars.FillEllipse(whiteBrush, 237, 50, 3, 3);
+            stars.FillEllipse(whiteBrush, 256, 100, 8, 8);
+            stars.FillEllipse(whiteBrush, 274, 150, 16, 16);
+            stars.FillEllipse(whiteBrush, 283, 200, 4, 4);
+            stars.FillEllipse(whiteBrush, 241, 250, 9, 9); 
+            stars.FillEllipse(whiteBrush, 242, 300, 4, 4);
             
-            stars.FillEllipse(whiteBrush, 300, 50, 10, 10);
-            stars.FillEllipse(whiteBrush, 300, 100, 10, 10);
-            stars.FillEllipse(whiteBrush, 300, 150, 10, 10);
-            stars.FillEllipse(whiteBrush, 300, 200, 10, 10);
-            stars.FillEllipse(whiteBrush, 300, 250, 10, 10);
-            stars.FillEllipse(whiteBrush, 300, 300, 10, 10); 
+            stars.FillEllipse(whiteBrush, 289, 50, 3, 3);
+            stars.FillEllipse(whiteBrush, 293, 100, 8, 8);
+            stars.FillEllipse(whiteBrush, 334, 150, 4, 4);
+            stars.FillEllipse(whiteBrush, 317, 200, 6, 6);
+            stars.FillEllipse(whiteBrush, 326, 250, 9, 9);
+            stars.FillEllipse(whiteBrush, 297, 300, 4, 4); 
             
-            stars.FillEllipse(whiteBrush, 350, 50, 10, 10);
-            stars.FillEllipse(whiteBrush, 350, 100, 10, 10);
-            stars.FillEllipse(whiteBrush, 350, 150, 10, 10);
-            stars.FillEllipse(whiteBrush, 350, 200, 10, 10);
-            stars.FillEllipse(whiteBrush, 350, 250, 10, 10);
-            stars.FillEllipse(whiteBrush, 350, 300, 10, 10);
+            stars.FillEllipse(whiteBrush, 339, 50, 9, 9);
+            stars.FillEllipse(whiteBrush, 371, 100, 4, 4);
+            stars.FillEllipse(whiteBrush, 364, 150, 6, 6);
+            stars.FillEllipse(whiteBrush, 346, 200, 3, 3);
+            stars.FillEllipse(whiteBrush, 341, 250, 4, 4);
+            stars.FillEllipse(whiteBrush, 378, 300, 8, 8);
             
-            stars.FillEllipse(whiteBrush, 400, 50, 10, 10);
-            stars.FillEllipse(whiteBrush, 400, 100, 10, 10);
-            stars.FillEllipse(whiteBrush, 400, 150, 10, 10);
-            stars.FillEllipse(whiteBrush, 400, 200, 10, 10);
-            stars.FillEllipse(whiteBrush, 400, 250, 10, 10);
-            stars.FillEllipse(whiteBrush, 400, 300, 10, 10);
+            stars.FillEllipse(whiteBrush, 383, 50, 4, 4);
+            stars.FillEllipse(whiteBrush, 408, 100, 4, 4);
+            stars.FillEllipse(whiteBrush, 416, 150, 6, 6);
+            stars.FillEllipse(whiteBrush, 392, 200, 3, 3);
+            stars.FillEllipse(whiteBrush, 412, 250, 9, 9);
+            stars.FillEllipse(whiteBrush, 396, 300, 8, 8);
             
-            stars.FillEllipse(whiteBrush, 450, 50, 10, 10);
-            stars.FillEllipse(whiteBrush, 450, 100, 10, 10);
-            stars.FillEllipse(whiteBrush, 450, 150, 10, 10);
-            stars.FillEllipse(whiteBrush, 450, 200, 10, 10);
-            stars.FillEllipse(whiteBrush, 450, 250, 10, 10);
-            stars.FillEllipse(whiteBrush, 450, 300, 10, 10);
+            stars.FillEllipse(whiteBrush, 434, 50, 8, 8);
+            stars.FillEllipse(whiteBrush, 475, 100, 3, 3);
+            stars.FillEllipse(whiteBrush, 457, 150, 4, 4);
+            stars.FillEllipse(whiteBrush, 462, 200, 6, 6);
+            stars.FillEllipse(whiteBrush, 444, 250, 4, 4);
+            stars.FillEllipse(whiteBrush, 439, 300, 9, 9);
             
-            stars.FillEllipse(whiteBrush, 500, 50, 10, 10);
-            stars.FillEllipse(whiteBrush, 500, 100, 10, 10);
-            stars.FillEllipse(whiteBrush, 500, 150, 10, 10);
-            stars.FillEllipse(whiteBrush, 500, 200, 10, 10);
-            stars.FillEllipse(whiteBrush, 500, 250, 10, 10);
-            stars.FillEllipse(whiteBrush, 500, 300, 10, 10);
+            stars.FillEllipse(whiteBrush, 487, 50, 9, 9);
+            stars.FillEllipse(whiteBrush, 493, 100, 6, 6);
+            stars.FillEllipse(whiteBrush, 534, 150, 4, 4);
+            stars.FillEllipse(whiteBrush, 517, 200, 3, 3);
+            stars.FillEllipse(whiteBrush, 521, 250, 8, 8);
+            stars.FillEllipse(whiteBrush, 504, 300, 4, 4);
             
-            stars.FillEllipse(whiteBrush, 550, 50, 10, 10);
-            stars.FillEllipse(whiteBrush, 550, 100, 10, 10);
-            stars.FillEllipse(whiteBrush, 550, 150, 10, 10);
-            stars.FillEllipse(whiteBrush, 550, 200, 10, 10);
-            stars.FillEllipse(whiteBrush, 550, 250, 10, 10);
-            stars.FillEllipse(whiteBrush, 550, 300, 10, 10);*/
-
-            stars.FillEllipse(whiteBrush, 179, 149, 5, 5);
-            stars.FillEllipse(whiteBrush, 62, 228, 5, 5);
-            stars.FillEllipse(whiteBrush, 177, 221, 5, 5);
-
-            stars.FillEllipse(whiteBrush, 349, 159, 5, 5);
-            stars.FillEllipse(whiteBrush, 393, 202, 5, 5);
-            stars.FillEllipse(whiteBrush, 391, 268, 5, 5);
-
-            stars.FillEllipse(whiteBrush, 357, 108, 5, 5);
-            stars.FillEllipse(whiteBrush, 429, 66, 5, 5);
-            stars.FillEllipse(whiteBrush, 453, 95, 5, 5);
-
-            stars.DrawLine(whitePen, 185, 152, 348, 161);
-            stars.DrawLine(whitePen, 178, 152, 68, 230);
-            stars.DrawLine(whitePen, 68, 230, 176, 224);
-
-            stars.DrawLine(whitePen, 183, 224, 389, 271);
-            stars.DrawLine(whitePen, 393, 267, 396, 208);
-            stars.DrawLine(whitePen, 396, 201, 355, 162);
-
-            stars.DrawLine(whitePen, 351, 158, 359, 114);
+            stars.FillEllipse(whiteBrush, 540, 50, 3, 3);
+            stars.FillEllipse(whiteBrush, 576, 100, 4, 4);
+            stars.FillEllipse(whiteBrush, 563, 150, 8, 8);
+            stars.FillEllipse(whiteBrush, 558, 200, 4, 4);
+            stars.FillEllipse(whiteBrush, 537, 250, 9, 9);
+            stars.FillEllipse(whiteBrush, 546, 300, 7, 7);
+            
         }
 
         private void stars_Load(object sender, EventArgs e)

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(stars));
             this.SuspendLayout();
             // 
             // stars
@@ -37,6 +38,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = global::ConstellationsCard.Properties.Resources.night_sky_hd_wallpaper;
             this.ClientSize = new System.Drawing.Size(609, 479);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "stars";
             this.Text = "Constellations Card";
             this.Load += new System.EventHandler(this.stars_Load);
