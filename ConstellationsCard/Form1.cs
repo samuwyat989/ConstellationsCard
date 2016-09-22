@@ -128,7 +128,32 @@ namespace ConstellationsCard
             stars.FillEllipse(whiteBrush, 558, 200, 4, 4);
             stars.FillEllipse(whiteBrush, 537, 250, 9, 9);
             stars.FillEllipse(whiteBrush, 546, 300, 7, 7);
-            
+
+            stars.FillEllipse(whiteBrush, 179, 149, 5, 5);
+            stars.FillEllipse(whiteBrush, 62, 228, 5, 5);
+            stars.FillEllipse(whiteBrush, 177, 221, 5, 5);
+
+            stars.FillEllipse(whiteBrush, 349, 159, 5, 5);
+            stars.FillEllipse(whiteBrush, 393, 202, 5, 5);
+            stars.FillEllipse(whiteBrush, 391, 268, 5, 5);
+
+            stars.FillEllipse(whiteBrush, 357, 108, 5, 5);
+            stars.FillEllipse(whiteBrush, 429, 66, 5, 5);
+            stars.FillEllipse(whiteBrush, 453, 95, 5, 5);
+
+            stars.DrawLine(whitePen, 185, 152, 348, 161);
+            stars.DrawLine(whitePen, 178, 152, 68, 230);
+            stars.DrawLine(whitePen, 68, 230, 176, 224);
+
+            stars.DrawLine(whitePen, 183, 224, 389, 271);
+            stars.DrawLine(whitePen, 393, 267, 396, 208);
+            stars.DrawLine(whitePen, 396, 201, 355, 162);
+
+            stars.DrawLine(whitePen, 351, 158, 359, 114);
+            stars.DrawLine(whitePen, 360, 107, 428, 68);
+
+            stars.DrawLine(whitePen, 435, 68, 452, 97);
+
         }
 
         private void stars_Load(object sender, EventArgs e)
