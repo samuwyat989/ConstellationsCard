@@ -23,6 +23,7 @@ namespace ConstellationsCard
 
         private void stars_Click(object sender, EventArgs e)
         {
+            //Set up pens, brushes and fonts 
             Graphics stars = this.CreateGraphics();
             Pen whitePen = new Pen(Color.White);
             SolidBrush whiteBrush = new SolidBrush(Color.White);
@@ -34,7 +35,11 @@ namespace ConstellationsCard
             Font desFont = new Font("Courier New", 9);
             Font tDesFont = new Font("Courier New", 25);
             Font highFont = new Font("Courier New", 13, FontStyle.Bold);
+
+            //Leo image is visable 
+            stars.DrawImage(Properties.Resources.leo, 100, 20, 400, 400);
             
+            //Draw the words on the title 
             stars.DrawString("ICS3U Summative: Constellation Card", titleFont, whiteBrush, 25, 190);
             stars.DrawString("By: Sam Wyatt             Due: 29 September 2016", nameFont, whiteBrush, 100, 430);
 
@@ -268,28 +273,39 @@ namespace ConstellationsCard
 
             //Red Leo Animation
             stars.DrawLine(whitePen, 88, 250, 198, 172);
-            Thread.Sleep(200);
+            stars.FillEllipse(whiteBrush, 82, 248, 5, 5);
+            Thread.Sleep(100);
             stars.DrawLine(whitePen, 88, 250, 196, 244);
-            Thread.Sleep(200);
+            stars.FillEllipse(whiteBrush, 199, 169, 5, 5);
+            Thread.Sleep(100);
             stars.DrawLine(whitePen, 203, 244, 409, 291);
-            Thread.Sleep(200);
+            stars.FillEllipse(whiteBrush, 197, 241, 5, 5);
+            Thread.Sleep(100);
             stars.DrawLine(whitePen, 205, 172, 368, 181);
-            Thread.Sleep(200);
+            stars.FillEllipse(whiteBrush, 369, 179, 5, 5);
+            Thread.Sleep(100);
             stars.DrawLine(whitePen, 371, 178, 379, 134);
-            Thread.Sleep(200);
+            stars.FillEllipse(whiteBrush, 413, 222, 5, 5);
+            Thread.Sleep(100);
             stars.DrawLine(whitePen, 375, 182, 416, 221);
-            Thread.Sleep(200);
+            stars.FillEllipse(whiteBrush, 411, 288, 5, 5);
+            Thread.Sleep(100);
             stars.DrawLine(whitePen, 380, 127, 448, 88);
-            Thread.Sleep(200);
+            stars.FillEllipse(whiteBrush, 377, 128, 5, 5);
+            Thread.Sleep(100);
             stars.DrawLine(whitePen, 413, 287, 416, 228);
-            Thread.Sleep(200);          
+            stars.FillEllipse(whiteBrush, 449, 86, 5, 5);
+            Thread.Sleep(100);          
             stars.DrawLine(whitePen, 455, 88, 475, 104);
+            stars.FillEllipse(whiteBrush, 473, 105, 5, 5);
 
             Thread.Sleep(1000);
 
+            //Changes white Pen and Brush to yellow 
             whitePen.Color = Color.Yellow;
             whiteBrush.Color = Color.Yellow;
 
+            //Draw all Leo lines yellow
             stars.DrawLine(whitePen, 368, 181, 205, 172);            
             stars.DrawLine(whitePen, 198, 172, 88, 250);            
             stars.DrawLine(whitePen, 88, 250, 196, 244);           
@@ -300,6 +316,7 @@ namespace ConstellationsCard
             stars.DrawLine(whitePen, 380, 127, 448, 88);         
             stars.DrawLine(whitePen, 455, 88, 475, 104);
 
+            //Draw all Leo stars yellow
             stars.FillEllipse(whiteBrush, 199, 169, 5, 5);
             stars.FillEllipse(whiteBrush, 82, 248, 5, 5);
             stars.FillEllipse(whiteBrush, 197, 241, 5, 5);
