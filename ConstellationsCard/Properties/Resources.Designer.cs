@@ -63,6 +63,15 @@ namespace ConstellationsCard.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream beep_02 {
+            get {
+                return ResourceManager.GetStream("beep_02", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream Blink {
             get {
                 return ResourceManager.GetStream("Blink", resourceCulture);

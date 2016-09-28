@@ -36,7 +36,7 @@ namespace ConstellationsCard
             Font tDesFont = new Font("Courier New", 25);
             Font highFont = new Font("Courier New", 13, FontStyle.Bold);
 
-            //Leo image is visable 
+            //Leo image is visable in starting screen
             stars.DrawImage(Properties.Resources.leo, 100, 20, 400, 400);
             
             //Draw the words on the title 
@@ -45,18 +45,19 @@ namespace ConstellationsCard
 
             Thread.Sleep(5000);
 
+            //Clear the screen black
             stars.Clear(Color.Black);
 
             Thread.Sleep(1000);
 
+            //Draw name of the consellation with underline
             stars.DrawString("Constalation - Leo", tDesFont, whiteBrush, 25, 318);
-            
             stars.DrawLine(whitePen, 30, 320, 580, 320);
             stars.FillEllipse(yellowBrush, 500, 460, 10, 10);
 
             Thread.Sleep(1000);
 
-            //Background stars
+            //Draw background stars left to right
             stars.FillEllipse(whiteBrush, 65, 54, 10, 10); 
             stars.FillEllipse(whiteBrush, 43, 103, 8, 8);
             stars.FillEllipse(whiteBrush, 62, 143, 16, 16);
@@ -158,19 +159,19 @@ namespace ConstellationsCard
             
             //Drawing the Big Dipper animation 
             stars.DrawLine(whitePen, 56, 99, 111, 70);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             stars.DrawLine(whitePen, 118, 66, 161, 70);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             stars.DrawLine(whitePen, 168, 70, 221, 71);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             stars.DrawLine(whitePen, 228, 71, 322, 26);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             stars.DrawLine(whitePen, 228, 75, 253, 101);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             stars.DrawLine(whitePen, 260, 105, 332, 75);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             stars.DrawLine(whitePen, 336, 71, 326, 29);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
 
             //Set requirements and then draw the arrow
             Pen whiteArrow = new Pen(Color.White, 10);
@@ -179,73 +180,75 @@ namespace ConstellationsCard
             blackArrow.StartCap = LineCap.ArrowAnchor;
             stars.DrawLine(whiteArrow, 335, 175, 335, 85);
 
-            //Draw the star name in green with white background and change the description sentance to green             
+            ///Draw the star name in green with white background, change the 
+            ///description sentance to green, play sound and green star            
             SoundPlayer sounds = new SoundPlayer(Properties.Resources.Blink);
             sounds.Play();
             stars.FillRectangle(whiteBrush, 350, 65, 80, 20);
             stars.DrawString("Merak", highFont, highBrush, 360, 65);
             stars.DrawLine(whiteArrow, 335, 175, 335, 85);
             stars.FillEllipse(highBrush, 333, 72, 5, 5);
-
             stars.DrawString("The Big Dipper is close to Leo and can be identified by the pointer star", desFont, highBrush, 30, 350);
             stars.DrawString("Merak.", desFont, highBrush, 30, 375);
-
-            //Hide the star name and change the description sentance to back to white
+                        
             Thread.Sleep(750);
 
+            ///Hide star name and white background, change the 
+            ///description sentance to white and white star 
             stars.FillRectangle(blackBrush, 350, 65, 80, 20);
             stars.DrawString("Merak", highFont, blackBrush, 360, 65);
             stars.DrawLine(blackArrow, 335, 175, 335, 85);
             stars.FillEllipse(whiteBrush, 333, 72, 5, 5);
-
             stars.DrawString("The Big Dipper is close to Leo and can be identified by the pointer star", desFont, whiteBrush, 30, 350);
             stars.DrawString("Merak.", desFont, whiteBrush, 30, 375);
 
-            //Draw the star name in green with white background and change the description sentance to green
             Thread.Sleep(750);
+
+            ///Draw the star name in green with white background, change the 
+            ///description sentance to green, play sound and green star  
             sounds = new SoundPlayer(Properties.Resources.Blink);
             sounds.Play();
             stars.FillRectangle(whiteBrush, 350, 65, 80, 20);
             stars.DrawString("Merak", highFont, highBrush, 360, 65);
             stars.DrawLine(whiteArrow, 335, 175, 335, 85);
             stars.FillEllipse(highBrush, 333, 72, 5, 5);
-
             stars.DrawString("The Big Dipper is close to Leo and can be identified by the pointer star", desFont, highBrush, 30, 350);
             stars.DrawString("Merak.", desFont, highBrush, 30, 375);
 
-            //Hide the star name and change the description sentance to back to white
             Thread.Sleep(750);
 
+            ///Hide star name and white background, change the 
+            ///description sentance to white and white star 
             stars.FillRectangle(blackBrush, 350, 65, 80, 20);
             stars.DrawString("Merak", highFont, blackBrush, 360, 65);
             stars.DrawLine(blackArrow, 335, 175, 335, 85);
             stars.FillEllipse(whiteBrush, 333, 72, 5, 5);
-
             stars.DrawString("The Big Dipper is close to Leo and can be identified by the pointer star", desFont, whiteBrush, 30, 350);
             stars.DrawString("Merak.", desFont, whiteBrush, 30, 375);
 
-            //Draw the star name in green with white background and change the description sentance to green
             Thread.Sleep(750);
+
+            ///Draw the star name in green with white background, change the 
+            ///description sentance to green, play sound and green star 
             sounds = new SoundPlayer(Properties.Resources.Blink);
             sounds.Play();
             stars.FillRectangle(whiteBrush, 350, 65, 80, 20);
             stars.DrawString("Merak", highFont, highBrush, 360, 65);
             stars.DrawLine(whiteArrow, 335, 175, 335, 85);
             stars.FillEllipse(highBrush, 333, 72, 5, 5);
-
             stars.DrawString("The Big Dipper is close to Leo and can be identified by the pointer star", desFont, highBrush, 30, 350);
             stars.DrawString("Merak.", desFont, highBrush, 30, 375);
 
-            Thread.Sleep(4000);
-
-            //Hide the star name and change the description sentance to back to white
-            Thread.Sleep(750);
-
+            Thread.Sleep(4750);
+            
+            ///Draw the star name in green with white background, change the 
+            ///description sentance to green, play sound and green star 
             stars.FillRectangle(blackBrush, 350, 65, 80, 20);
             stars.DrawString("Merak", highFont, blackBrush, 360, 65);
             stars.DrawLine(blackArrow, 335, 175, 335, 85);
             stars.FillEllipse(whiteBrush, 333, 72, 5, 5);
 
+            //Draw second part of description 
             stars.DrawString("The Big Dipper is close to Leo and can be identified by the pointer star", desFont, whiteBrush, 30, 350);
             stars.DrawString("Merak.", desFont, whiteBrush, 30, 375);
             stars.DrawString("The constellation becomes visible in the Northern Hemisphere", desFont, whiteBrush, 80, 375);
@@ -253,53 +256,76 @@ namespace ConstellationsCard
          
             //Drawing the Leo animation
             stars.DrawLine(whitePen, 368, 181, 205, 172);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             stars.DrawLine(whitePen, 198, 172, 88, 250);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             stars.DrawLine(whitePen, 88, 250, 196, 244);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             stars.DrawLine(whitePen, 203, 244, 409, 291);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             stars.DrawLine(whitePen, 413, 287, 416, 228);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             stars.DrawLine(whitePen, 416, 221, 375, 182);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             stars.DrawLine(whitePen, 371, 178, 379, 134);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             stars.DrawLine(whitePen, 380, 127, 448, 88);
-            Thread.Sleep(500);
+            Thread.Sleep(250);
             stars.DrawLine(whitePen, 455, 88, 475, 104);
+                      
+            Thread.Sleep(1000);
+
+            blackBrush.Color = Color.Red;
+
+            //Complete the flashing bottom star animation 
+            sounds = new SoundPlayer(Properties.Resources.beep_02);
+            sounds.Play();
+            stars.FillEllipse(blackBrush, 82, 248, 5, 5);
+            Thread.Sleep(250);
+            stars.FillEllipse(whiteBrush, 82, 248, 5, 5);
+            Thread.Sleep(250);
+            sounds = new SoundPlayer(Properties.Resources.beep_02);
+            sounds.Play();
+            stars.FillEllipse(blackBrush, 82, 248, 5, 5);
+            Thread.Sleep(250);
+            stars.FillEllipse(whiteBrush, 82, 248, 5, 5);
+            Thread.Sleep(250);
+            sounds = new SoundPlayer(Properties.Resources.beep_02);
+            sounds.Play();
+            stars.FillEllipse(blackBrush, 82, 248, 5, 5);
+            Thread.Sleep(250);
+            stars.FillEllipse(whiteBrush, 82, 248, 5, 5);
+
+            Thread.Sleep(1000);
 
             whitePen.Color = Color.Red;
             whiteBrush.Color = Color.Red;
 
-            Thread.Sleep(1000);
-
             //Red Leo Animation
             stars.DrawLine(whitePen, 88, 250, 198, 172);
             stars.FillEllipse(whiteBrush, 82, 248, 5, 5);
-            Thread.Sleep(50);
+            Thread.Sleep(30);
             stars.DrawLine(whitePen, 88, 250, 196, 244);
             stars.FillEllipse(whiteBrush, 199, 169, 5, 5);
-            Thread.Sleep(50);
+            Thread.Sleep(30);
             stars.DrawLine(whitePen, 203, 244, 409, 291);
             stars.FillEllipse(whiteBrush, 197, 241, 5, 5);
-            Thread.Sleep(50);
+            Thread.Sleep(30);
             stars.DrawLine(whitePen, 205, 172, 368, 181);
             stars.FillEllipse(whiteBrush, 369, 179, 5, 5);
-            Thread.Sleep(50);
+            Thread.Sleep(30);
             stars.DrawLine(whitePen, 371, 178, 379, 134);
             stars.FillEllipse(whiteBrush, 413, 222, 5, 5);
-            Thread.Sleep(50);
+            Thread.Sleep(30);
             stars.DrawLine(whitePen, 375, 182, 416, 221);
             stars.FillEllipse(whiteBrush, 411, 288, 5, 5);
-            Thread.Sleep(50);
+            Thread.Sleep(30);
             stars.DrawLine(whitePen, 380, 127, 448, 88);
             stars.FillEllipse(whiteBrush, 377, 128, 5, 5);
-            Thread.Sleep(50);
+            Thread.Sleep(30);
             stars.DrawLine(whitePen, 413, 287, 416, 228);
             stars.FillEllipse(whiteBrush, 449, 86, 5, 5);
-            Thread.Sleep(50);          
+            Thread.Sleep(30);          
             stars.DrawLine(whitePen, 455, 88, 475, 104);
             stars.FillEllipse(whiteBrush, 473, 105, 5, 5);
 
@@ -331,15 +357,16 @@ namespace ConstellationsCard
             stars.FillEllipse(whiteBrush, 449, 86, 5, 5);
             stars.FillEllipse(whiteBrush, 473, 105, 5, 5);
 
+            //Draw third part of the description in yellow and play lion roar
             stars.DrawString("Leo is a mythalogical lion that was slain by Hercules and represents", desFont, whiteBrush, 30, 425);
             stars.DrawString("us in our past lives and, the debts we still have to repay.", desFont, whiteBrush, 30, 450);
-
             sounds = new SoundPlayer(Properties.Resources.LionRoar);
             sounds.Play();
         }
 
         private void stars_Load(object sender, EventArgs e)
         {
+            //When the program loads make the image the size of the screen
             BackgroundImageLayout = ImageLayout.Zoom;
         }
     }
