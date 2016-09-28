@@ -106,5 +106,14 @@ namespace ConstellationsCard.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream upBeep2 {
+            get {
+                return ResourceManager.GetStream("upBeep2", resourceCulture);
+            }
+        }
     }
 }

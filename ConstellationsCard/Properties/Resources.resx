@@ -572,4 +572,7 @@
   <data name="beep_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\beep-02.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="upBeep2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upBeep2.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
